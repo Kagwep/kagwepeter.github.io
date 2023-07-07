@@ -1,190 +1,206 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kagwe | Home</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-
-  <title>My Portfolio</title>
+    <!-- Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dufdzujik/image/upload/v1688737208/FUN_FOOD/sdf-removebg-preview_tafhb0.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Font Awsome Icons -->
+    <script src="https://kit.fontawesome.com/2786bc3471.js" crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
 </head>
+
 <body>
- 
-<!-- Navigation menu -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand mx-4 fw-bold" href="#">My Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-</nav>
-  
+    <!------------------------------ Home ------------------------------>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://res.cloudinary.com/dufdzujik/image/upload/v1688737208/FUN_FOOD/edsgr-removebg-preview_xvy2qo.png" class="logo">
+                <ul id="mobile-menu">
+                    <li><a href="#header">Home<span class="color">.</span></a></li>
+                    <li><a href="#about">About<span class="color">.</span></a></li>
+                    <li><a href="#services">Services<span class="color">.</span></a></li>
+                    <li><a href="#portfolio">Portfolio<span class="color">.</span></a></li>
+                    <li><a href="#contact">Contact Me<span class="color">.</span></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <p onclick="openMenu()"><i class="fa-solid fa-bars" onclick="openMenue()"></i></p>
+            </nav>
+            <div class="header-text">
+                <p>A SOFTWARE DEVELOPER<span class="color">_</span></p>
+                <h1 class="main-title">Hello, I'm <span class="color"></span>Peter Kagwe<br>
+                    Software  Developer <span class="bgcolor">Edge Sides</span></h1>
+            </div>
 
-  <!-- Main content -->
-  <div class=" ">
-
-<!-- Home section -->
-<section id="home" class=" bg-light">
-    <div class="container">
-      <div class="d-md-flex align-items-center">
-        <div class="text-center">
-          <h2 class="text-center mb-3"> <small class="text-center"> Hi, I am </small>Peter Kagwe</h2>
-          <h3 class="text-center mb-3 text-primary">Software Developer</h3>
-          <p class="text-center">As a software developer, I specialize in technologies such as React Native, React JS, Python, Django, DRF, JavaScript, Rust, Near, Solidity, and Ethereum.</p>
         </div>
-        <div class="text-center">
-          <img src="./images/mob.png" alt="Profile picture" class="img-fluid rounded mx-auto d-block mb-3">
-        </div>
-      </div>
-      <p class="p-2 text-center text-info"> On this website, you can find more information about my skills, experience, and recent projects. If you have any questions or would like to get in touch, please don't hesitate to contact me using the information in the Contact section.</p>
     </div>
-  </section>
-  
-    <!-- About section -->
-   
-    <section id="about" class=" p-3">
-    <div class="container">
-      <h2 class="text-center mb-3"> About Me</h2>
-      <p class="text-center mb-3">I am a skilled software developer with a strong background in front-end and back-end technologies. My primary areas of expertise are React Native and React JS for mobile and web development, Python and Django for server-side programming, and JavaScript for both front-end and back-end development. I also have experience in blockchain development, using Rust in Near and Solidity in Ethereum.</p>
-      <p class="text-center mb-3">I am a fast learner and a problem-solver, with a passion for creating high-quality and innovative software solutions. I am always looking for new challenges and opportunities to grow and learn, and I am confident in my ability to deliver exceptional results in any project I undertake.</p>
-    </div>
-    
-    </section>
+    <!------------------------------ About ------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://res.cloudinary.com/dufdzujik/image/upload/v1688737209/FUN_FOOD/sdre__1_-removebg-preview_xfeulo.png" alt="users">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me<span class="color">.</span></h2>
+                    <p>I am a skilled software developer with a strong background in front-end and back-end technologies. My primary areas of expertise are React Native and React JS for mobile and web development, Python and Django for server-side programming, and JavaScript for both front-end and back-end development. I also have experience in blockchain development, using Rust in Near and Solidity in Ethereum.
 
-    <!-- Work section -->
-    <section id="work" class="bg-light">
-       <div class="container">
-        <h2 class="text-center">Projects</h2>
-        <p class="text-center mb-3">Take a look at some of my recent projects:</p>
-        <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-            <div class="card border-primary mb-3">
-                <img src="./images/tenebop.PNG" alt="Project image" class="card-img-top img-fluid">
-                <div class="card-body">
-                <h3 class="card-title">Tenebo</h3>
-                <p class="card-text">A web app, "Tenebo", allows users to adopt wildlife animals as NFTs and use the proceeds to build shelters for affected communities. Adopters receive a unique digital certificate and regular updates on their adopted animal and the shelter projects. Our platform helps to solve human-wildlife conflict and support conservation and community development efforts.</p>
-                <p class="card-text">Technologies used: Solidity, Hardhat, React JS</p>
-                <p class="card-text"><a href="https://tenebo-a1b02.web.app/">Live demo</a> | <a href="#">Code repository</a></p>
-                </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-            <div class="card border-success mb-3">
-                <img src="./images/vercel.PNG" alt="Project image" class="card-img-top img-fluid">
-                <div class="card-body">
-                <h3 class="card-title">Joblinks</h3>
-                <p class="card-text"> A platform that aggregates job postings from various sources and provides links to the original postings on the companies' websites. The goal is to make it easy for job seekers to discover and apply for job opportunities from a variety of companies in one place.</p>
-                <p class="card-text"> The platform also has an android application Joblinks</p>
-                <p class="card-text">Technologies used: Python, Django, DRF, React Native</p>
-                <p class="card-text"><a href="https://joblinks.vercel.app/">Live demo</a> | <a href="#">Code repository</a></p>
-                </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-            <div class="card border-danger mb-3">
-                <img src="./images/Hambre.PNG" alt="Project image" class="card-img-top img-fluid">
-                <div class="card-body">
-                <h3 class="card-title">Hambre</h3>
-                <p class="card-text">"Hambre", aims to tackle hunger by connecting farmers with the resources they need to succeed. Through the platform, farmers can access financing and equipment, while users can rent idle land and purchase farm inputs. By providing these resources and connections, we hope to empower farmers to increase food production and alleviate hunger in their communities.</p>
-                <p class="card-text">Technologies used: Near Protocol, Rust, React JS</p>
-                <p class="card-text"><a href="https://hambren.web.app/">Live demo</a> | <a href="#">Code repository</a></p>
-                </div>
-            </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="card border-warning mb-3">
-                <img src="./images/nyumbake.PNG" alt="Project image" class="card-img-top img-fluid">
-                <div class="card-body">
-                    <h3 class="card-title">Nyumbake</h3>
-                    <p class="card-text">The aim of the above website is to help users find modern and spacious housing apartments in desirable locations, equipped with a variety of amenities to make their living experience comfortable and enjoyable. The website provides an easy-to-use platform for browsing and filtering available units, as well as viewing photos and virtual tours and learning more about the features and amenities offered. The website is designed to help users find their perfect housing apartment quickly and easily.</p>
-                    <p class="card-text">Technologies used: Python, Django, DRF, React JS</p>
-                    <p class="card-text"><a href="http://nyumbake.pythonanywhere.com/">Live demo</a> | <a href="#">Code repository</a></p>
-                </div>
+                        I am a fast learner and a problem-solver, with a passion for creating high-quality and innovative software solutions. I am always looking for new challenges and opportunities to grow and learn, and I am confident in my ability to deliver exceptional results in any project I undertake.</p>
+                    <ul>
+                        <li class="tab-links active-link" onclick="openTab('skills')">Skills</li>
+                        <li class="tab-links" onclick="openTab('education')">Education</li>
+                        <li class="tab-links" onclick="openTab('experiences')">Experiences</li>
+                    </ul>
+
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <h3 class="bgcolor">Web Development</h3>
+                        <p>Creating Innovative Designs</p>
+
+                        <h3 class="bgcolor">Mobile App Development</h3>
+                        <p>Covering the trends in Tech</p>
+
+                        <h3 class="bgcolor">Web3 Development</h3>
+                        <p>Covering the trends in Tech</p>
+
+                        <h3 class="bgcolor">Entrepreneurship</h3>
+                        <p>Using technology for earning</p>
+
+                    </div>
+
+                    <div class="tab-contents education" id="education">
+                        <h3 class="bgcolor">2020 - Present</h3>
+                        <p>BS Information Technology | The Islamia University</p>
+
+                        <h3 class="bgcolor">2018 - 2020</h3>
+                        <p>Fsc Medical | Punjab Group of Colleges</p>
+
+                        <h3 class="bgcolor">2016 - 2018</h3>
+                        <p>Matriculation | Government High School Januwala</p>
+
+                    </div>
+
+                    <div class="tab-contents experiences" id="experiences">
+                        <h3 class="bgcolor">Third Unicorn</h3>
+                        <p>Works as a senior web developer</p>
+
+                        <h3 class="bgcolor">Pak Tech</h3>
+                        <p>Worked as an internee, learned a lot with professional training.</p>
+
+                        <h3 class="bgcolor">Zulfiqar</h3>
+                        <p>Worked as junior developer</p>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-       </div>
-
-    </section>
-
-
-<!-- Contact section -->
-<section id="contact" class="mt-5">
-    <h2 class="text-center mb-3"> Contact</h2>
-    <p class="text-center mb-3">If you'd like to get in touch, you can reach me at:</p>
-    <div class="container">
-      <form>
-        <div class="form-group">
-          <label for="name" class="text-center mb-3">Name</label>
-          <input type="text" class="form-control border-success" id="name" placeholder="Enter your name">
-        </div>
-        <div class="form-group">
-          <label for="email" class="text-center mb-3">Email</label>
-          <input type="email" class="form-control border-success" id="email" placeholder="Enter your email">
-        </div>
-        <div class="form-group">
-          <label for="subject" class="text-center mb-3">Subject</label>
-          <input type="text" class="form-control border-success" id="subject" placeholder="Enter the subject of your message">
-        </div>
-        <div class="form-group">
-          <label for="message" class="text-center mb-3">Message</label>
-          <textarea class="form-control border-success" id="message" rows="3" placeholder="Enter your message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-success text-center mb-3">Send message</button>
-      </form>
     </div>
-  </section>
 
-</div>
-
-<!-- Footer -->
-<footer class="bg-dark py-3 mt-5">
-    <div class="container">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-auto">
-          <ul class="list-unstyled">
-            <li class="text-white m-2 ">Email: <a href="mailto:kagwepeter07@gmail.com" class="text-white m-2">kagwepeter07@gmail.com</a></li>
-            <li class="text-white m-2">Phone: 254707801908</li>
-            <li class="text-white m-2">Twitter: <a href="https://twitter.com/PeterKagwe10" class="text-white m-2">@myportfolio</a></li>
-          </ul>
+    <!------------------------------ Services ------------------------------>
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services<span class="color">.</span></h2>
+            <div class="row">
+                <div class="services-col">
+                    <i class="fa-brands fa-ethereum"></i><br>
+                    <h3>Web3 Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit amet quos fugit? Quae animi laborum libero, est praesentium unde iure.</p><br>
+                    <a href="https://github.com/Kagwep">learn more</a>  
+                </div>
+                <div class="services-col">
+                    <i class="fa-brands fa-google-play"></i><br>
+                    <h3>Android App Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit amet quos fugit? Quae animi laborum libero, est praesentium unde iure.</p><br>
+                    <a href="https://github.com/Kagwep">learn more</a>  
+                </div>
+                <div class="services-col">
+                    <i class="fa-brands fa-microsoft"></i></i>
+                    <h3>Web App Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit amet quos fugit? Quae animi laborum libero, est praesentium unde iure.</p><br>
+                    <a href="https://github.com/Kagwep">learn more</a>  
+                </div>
+            </div>
         </div>
-        <div class="col-auto">
-          <ul class="list-unstyled d-flex justify-content-end">
-            <li><a href="https://twitter.com/PeterKagwe10"><i class="fab fa-twitter fa-2x p-2"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook-square fa-2x p-2"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/peter-kagwe-24990818a/"><i class="fab fa-linkedin fa-2x p-2"></i></a></li>
-            <li><a href="https://github.com/Kagwep"><i class="fab fa-github-square fa-2x p-2"></i></a></li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </footer>
-  
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!------------------------------ Portfolio ------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work<span class="color">.</span></h2>
+            <div class="row">
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/gvMycv9/work-1.png">
+                    <div class="layer">
+                        <h3>App Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi laboriosam explicabo Lorem ipsum dolor</p>
+                        <a href="https://hambren.web.app"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/QDQ3VWv/work-2.png">
+                    <div class="layer">
+                        <h3>Marketplace Website Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi laboriosam explicabo Lorem ipsum dolor</p>
+                        <a href="https://bsm.co.ke"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/nc4vLyb/work-3.png">
+                    <div class="layer">
+                        <h3>Reading App Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi laboriosam explicabo Lorem ipsum dolor</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">Learn More</button>
+        </div>
+    </div>
+
+    <!------------------------------ Contact ------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <form>
+                        <input type="text" name="fullName" id="full-name" placeholder="Your Name">
+                        <input type="email" name="Email" id="email" placeholder="Your Email">
+                        <textarea name="message" id="message"rows="10" placeholder="Your Message ..."></textarea>
+                        <input type="submit" value="Submit" class="btn2">
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h2 class="sub-title">My Contact<span class="color">.</span></h2>
+                    <p class="bgcolor"><i class="fa-sharp fa-solid fa-phone"></i> Phone</p>
+                    <p>+254707801908</p>
+                    <p class="bgcolor"><i class="fa-solid fa-paper-plane"></i> Email</p>
+                    <p>kagwepeter07@gmail.com</p>
+                    <p class="bgcolor"><i class="fa-solid fa-user"></i> Social Profiles</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Copyright © 2023 <span class="color"></span>Edge Sides<span class="color">.</span> Kagwe  | All rights reserved.</p>
+        </div>
+    </footer>
 </body>
+
 </html>

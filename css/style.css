@@ -145,7 +145,7 @@ nav ul li a:hover::after {
 /* ------------------- About ------------------- */
 
 #about {
-    
+margin-top: 10px;
 }
 
 #about .container .row {
